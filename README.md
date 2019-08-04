@@ -44,3 +44,10 @@ In the dataset, it contains 11 columns: step, type, amount, nameOrig, oldbalance
     Note: "isFraudFlag" parameter is used to indicate whether the transaction is fraud or not. 
           1 - Fraud, 0 - Not Fraud
     ```
+
+## Contact & Feedback
+
+  - CHEN NAN(chennansg@126.com)
+
+## License
+Distributed under the MIT License. See LICENSE for more information.
