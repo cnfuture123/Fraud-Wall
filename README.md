@@ -13,5 +13,28 @@ In the dataset, it contains 11 columns: step, type, amount, nameOrig, oldbalance
 ![Components](image/Components.PNG)
 
 # Run Fraud Wall Service
-1.
+1.Go to "model" Folder: `$ cd model/`
 
+2.Build Model: `$ python model.py`
+
+3.Start Flask Application: `$ python app.py`
+
+4.Perform HTTP Call to Flask Application Using Postman:
+
+  - Sample HTTP Request Format:
+    {
+      "step": 181,
+      "type": 1,
+      "amount": 410299.86,
+      "oldbalanceOrg": 410299.86,
+      "newbalanceOrig": 0,
+      "oldbalanceDest": 0,
+      "newbalanceDest": 0,
+      "isFlaggedFraud": 0
+    }
+    
+    - Sample HTTP Response Format:
+    {
+      "isFraudFlag": "1"
+    }
+  
