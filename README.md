@@ -10,7 +10,7 @@ Actually the dataset is a synthetic dataset generated using the simulator called
 In the dataset, it contains 11 columns :step, type, amount, nameOrig, oldbalanceOrg, newbalanceOrig, nameDest, oldbalanceDest, newbalanceDest, isFlaggedFraud, isFraud. Please refer detail data description available at Kaggle.
 
 # Components
-![alt text](/image/Components.png)
+![alt text](https://github.com/cnfuture123/Fraud-Wall/tree/master/image/Components.png)
 
 
 
