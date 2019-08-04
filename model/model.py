@@ -2,8 +2,6 @@
 # coding: utf-8
 import numpy as np
 import pandas as pd
-import matplotlib.pyplot as plt
-import seaborn as sns
 from sklearn.model_selection import KFold, cross_val_score, train_test_split, StratifiedKFold
 from sklearn.metrics import accuracy_score
 import lightgbm
